@@ -1,0 +1,14 @@
+.nav {
+	@apply flex flex-row justify-between w-full p-4 fixed top-0 items-center;
+
+	background-color: transparent;
+    background-image: radial-gradient(transparent 1px, #101010 1px);
+    background-size: 4px 4px;
+    backdrop-filter: blur(3px);
+    mask: linear-gradient(rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+    opacity: 1;
+
+	.logo {
+		@apply flex items-center;
+	}
+}
