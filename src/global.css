@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@font-face {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 300 700;
+	font-display: swap;
+	src: url(/fonts/Quicksand.woff2) format('woff2');
+}
+
+
+/* Default Styling */
+@layer base {
+	body {
+		@apply antialiased bg-background text-foreground font-quicksand;
+	}
+}

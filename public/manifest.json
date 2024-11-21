@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "otter-panel",
+  "short_name": "Otter Panel",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#4169E1",
+  "description": "Your modern game panel!"
+}
